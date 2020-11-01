@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Ajouter un etudiant</h1>
+    <p>
+      <table>
+        <tr>
+          <td>Nom :</td>
+          <td>
+            <input type="text" id="nom" required name="nom" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>Prénom :</td>
+          <td>
+            <input type="text" id="prenom" required name="prenom" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>CIN :</td>
+          <td><input type="number"id="cin" required max="99999999" name="cin" value=""></td>
+        </tr>
+        <tr>
+          <td>E-mail :</td>
+          <td>
+            <input type="email" id="email" name="email" required value="">
+          </td>
+        </tr>
+        <tr>
+          <td>Mot de passe :</td>
+          <td>
+            <input type="password" id="pwd" required name="pwd" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>Adresse :</td>
+          <td>
+            <input type="text" id="adresse" name="adresse" required value="">
+          </td>
+        </tr>
+        <tr>
+          <td>Classe :</td>
+          <td>
+            <input type="text" id="classe" name="classe" required value="">
+          </td>
+        </tr>
+      </table>
+      <button type="submit" name="button" onclick="ajouter()">Ajouter</button>
+    </p>
+    <div id="demo"></div>
+    <img src="" alt="">
+  </body>
+</html>
